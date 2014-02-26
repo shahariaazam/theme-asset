@@ -125,9 +125,9 @@ var Login = function () {
 
 	var handleRegister = function () {
 
-		function format(state) {
+        function format(state) {
             if (!state.id) return state.text; // optgroup
-            return "<img class='flag' src='assets/img/flags/" + state.id.toLowerCase() + ".png'/>&nbsp;&nbsp;" + state.text;
+            return "<img class='flag' src='/img/us.png'/>&nbsp;&nbsp;" + state.text;
         }
 
 
